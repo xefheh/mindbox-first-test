@@ -1,8 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SecondQuestion", "SecondQuestion", "{BDD1EEB2-9724-4A2E-83C9-2B47F65E6304}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiguresLibrary", "FiguresLibrary\FiguresLibrary.csproj", "{16064972-B0A9-4202-A8BA-4F346D98ADDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiguresLibrary.Tests", "FiguresLibrary.Tests\FiguresLibrary.Tests.csproj", "{FF0C820B-7732-4AB3-88BB-E1658FDBE9D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{16064972-B0A9-4202-A8BA-4F346D98ADDB} = {BDD1EEB2-9724-4A2E-83C9-2B47F65E6304}
+		{FF0C820B-7732-4AB3-88BB-E1658FDBE9D9} = {BDD1EEB2-9724-4A2E-83C9-2B47F65E6304}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16064972-B0A9-4202-A8BA-4F346D98ADDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16064972-B0A9-4202-A8BA-4F346D98ADDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16064972-B0A9-4202-A8BA-4F346D98ADDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16064972-B0A9-4202-A8BA-4F346D98ADDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF0C820B-7732-4AB3-88BB-E1658FDBE9D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF0C820B-7732-4AB3-88BB-E1658FDBE9D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF0C820B-7732-4AB3-88BB-E1658FDBE9D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF0C820B-7732-4AB3-88BB-E1658FDBE9D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
